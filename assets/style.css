@@ -62,6 +62,7 @@ header nav ul li a
     display: none;
 }
 
+/* Paragraph of the about quiz */
 .about-quiz p
 {
     line-height: 1.7;
@@ -70,6 +71,7 @@ header nav ul li a
     margin: 0 auto;
 }
 
+/* Start button */
 .start {
     background-color:aquamarine;
     border: none;
@@ -91,12 +93,17 @@ header nav ul li a
     display: flex;
     border-bottom: 3px solid aquamarine;
 }
+
+/* Timer with seconds */
 .timer{
     margin-left: 70%;
     text-align: end;
 }
 
-.quiz {
+/* The quiz  */
+.quiz  {
+
+    display: none;
 
     width: 550px;
     margin: 10% auto;
@@ -104,11 +111,13 @@ header nav ul li a
     border: 3px solid aquamarine;
 }
 
+/* the questions */
 .question {
     margin: 5% 5%;
     font-size: 25px;  
 }
 
+/* The answers */
 .answer_list {
 
     text-align: left;
@@ -122,6 +131,7 @@ header nav ul li a
 
 }
 
+/* The amount of questions and the next button */
 footer {
     width: 100%;
     border-top: 3px solid aquamarine;
@@ -134,6 +144,7 @@ footer {
     padding: 10px 10px;
 }
 
+/* The next button */
 .next_question {
     margin-left: 60%;
     margin-top: 5%;
@@ -147,4 +158,46 @@ footer {
 .total_questions p {
     font-weight:bold;
     color:aqua;
+}
+
+/* Where you enter your own score */
+.score_input {
+
+    width: 550px;
+    margin: 10% auto;
+    border-radius: 3%;
+    border: 3px solid aquamarine;
+    font-size: 35px;
+    padding: 2% 2%;
+}
+
+.score_input header {
+    text-align: left;
+    border-bottom: 2px solid aquamarine;
+    
+}
+
+.form {
+    padding: 5% 5%;
+    font-size: 30px;
+}
+
+.form-input {
+    height: 25px;
+}
+
+/* button that takes you to the leaderboards */
+.button-next {
+    background-color:aquamarine;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 15%;
 }
