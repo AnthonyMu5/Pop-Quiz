@@ -1,6 +1,5 @@
-const start_btn = document.querySelector(".start button");
-const about_quiz = document.querySelector(".quiz");
+const about_quiz = document.querySelector(".about-quiz");
+var start_btn = document.getElementById(".start button")
 
-start_btn.onclick = ()=>{
-    about_quiz.classList.add("activeInfo")
-}
+start_btn.onclick(myfunction());
+
